@@ -36,4 +36,5 @@ Basic GitHUB actions of this program is to add/commit and push data to github
 *return os.getcwd()*
 
 ##SCREENSHOTS
-na
+![image](https://user-images.githubusercontent.com/98312523/154280453-cb1f0370-deef-43c4-83fe-c7eadb66f44e.png)
+
