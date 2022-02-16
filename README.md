@@ -22,7 +22,12 @@ This is the final assignment for OS_LAB.
 The main file is developed under python programmimg language **main.py**.
 Basic GitHUB actions of this program is to add/commit and push data to github
 
-`CODE-MAIN.py`        
+
+## GITHUB_TOKEN
+Included by default in every workflow to give access to the repo the workflow is running in. Does not need to be configured manually.
+
+`CODE-MAIN.py` (https://github.com/ArunMandhan/test_repo_pylinter_v1.git)
+
 *import math*
 
 *import os*
@@ -60,6 +65,4 @@ Print associated errors with failed job. The order of linters are flake8, mypy, 
 ![WhatsApp Image 2022-02-16 at 7 02 44 PM (1)](https://user-images.githubusercontent.com/98312523/154280964-35e14a75-1d89-47a6-8aed-9a88a11cff93.jpeg)
 ![WhatsApp Image 2022-02-16 at 7 02 45 PM (1)](https://user-images.githubusercontent.com/98312523/154280966-9e46c9d0-bfa0-4067-b15d-b6b9fa3d9c63.jpeg)
 
-##GITHUB_TOKEN
-Included by default in every workflow to give access to the repo the workflow is running in. Does not need to be configured manually.
 
