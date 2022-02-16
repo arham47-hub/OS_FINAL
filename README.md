@@ -35,7 +35,9 @@ Basic GitHUB actions of this program is to add/commit and push data to github
 
 *return os.getcwd()*
 
-##SCREENSHOTS
+##OUTPUT SCREENSHOTS
+Print associated errors with failed job. The order of linters are flake8, mypy, isort. If any linter fails, the job will fail and no subsequent linters will run.
+
 ![WhatsApp Image 2022-02-16 at 7 02 34 PM](https://user-images.githubusercontent.com/98312523/154280896-3b1dd01b-741c-4116-84d9-a2f6495c7236.jpeg)
 ![WhatsApp Image 2022-02-16 at 7 02 35 PM (1)](https://user-images.githubusercontent.com/98312523/154280909-bf930bda-b1ba-46cf-a5d6-44724b3771fe.jpeg)
 ![WhatsApp Image 2022-02-16 at 7 02 35 PM](https://user-images.githubusercontent.com/98312523/154280912-246fd983-7ff6-4d21-9e36-40b0ea461108.jpeg)
@@ -58,4 +60,6 @@ Basic GitHUB actions of this program is to add/commit and push data to github
 ![WhatsApp Image 2022-02-16 at 7 02 44 PM (1)](https://user-images.githubusercontent.com/98312523/154280964-35e14a75-1d89-47a6-8aed-9a88a11cff93.jpeg)
 ![WhatsApp Image 2022-02-16 at 7 02 45 PM (1)](https://user-images.githubusercontent.com/98312523/154280966-9e46c9d0-bfa0-4067-b15d-b6b9fa3d9c63.jpeg)
 
+##GITHUB_TOKEN
+Included by default in every workflow to give access to the repo the workflow is running in. Does not need to be configured manually.
 
